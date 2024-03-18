@@ -17,6 +17,7 @@ function App() {
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(success);
+    document.body.style.backgroundImage = "url('clouds.jpg')";
   }, []);
 
   useEffect(() => {
